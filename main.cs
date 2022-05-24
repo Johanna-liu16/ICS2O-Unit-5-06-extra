@@ -16,7 +16,7 @@ class Program
         //Input 
         Console.WriteLine("This program multiplies two numbers using loops.");
         Console.WriteLine("");
-        Console.Write("Enter side a number: ");
+        Console.Write("Enter a number: ");
         counterOne = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("");
         Console.Write("Enter another number: ");
