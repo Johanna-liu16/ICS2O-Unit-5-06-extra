@@ -38,12 +38,17 @@ class Program
                 addedNumber = addedNumber - 1;
                 answer = answer - counterOne;
             }
-        } else if (counterOne > 0 && counterTwo < 0) {
-            while (addedNumber > counterTwo) {
+        }
+        else if (counterOne > 0 && counterTwo < 0)
+        {
+            while (addedNumber > counterTwo)
+            {
                 addedNumber = addedNumber - 1;
                 answer = answer - counterOne;
             }
-        }  else if (counterOne < 0 && counterTwo > 0){
+        }
+        else if (counterOne < 0 && counterTwo > 0)
+        {
             while (addedNumber < counterTwo)
             {
                 addedNumber = addedNumber + 1;
