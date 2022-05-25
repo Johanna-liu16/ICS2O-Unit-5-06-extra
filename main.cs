@@ -55,7 +55,7 @@ class Program
                 answer = answer + counterOne;
             }
         }
-           Console.WriteLine(counterOne + " x " + addedNumber + " = " + answer);
+          Console.WriteLine(counterOne + " x " + addedNumber + " = " + answer);
 
         Console.WriteLine("\nDone.");
     }
