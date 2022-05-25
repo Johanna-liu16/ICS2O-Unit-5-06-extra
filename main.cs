@@ -23,8 +23,10 @@ class Program
         counterTwo = Convert.ToInt32(Console.ReadLine());
 
         //Process
-        if (counterOne > 0 && counterTwo > 0) {
-            while (addedNumber < counterTwo) {
+        if (counterOne > 0 && counterTwo > 0)
+        {
+            while (addedNumber < counterTwo)
+            {
                 addedNumber = addedNumber + 1;
                 answer = answer + counterOne;
             }
